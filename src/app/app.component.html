@@ -1,0 +1,33 @@
+<div style="text-align: center">
+  <h1>
+    Welcome to {{ "My Zoo Journal Collection" }}
+  </h1>
+</div>
+
+<div>
+  <nav class="navbar navbar-expand-lg bg-dark p-0">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Zoo Journal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" (click)="displayUserJournals(1)">Display User's Journals</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" routerLink="/create-journal">Create NEW Journal</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+<!-- router-outlet to display routed components -->
+<router-outlet>
+</router-outlet>

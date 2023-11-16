@@ -1,0 +1,14 @@
+/* Add these styles to your component's CSS file or global styles */
+.delete-button-medium {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button-medium:hover {
+    background-color: darkred;
+}
